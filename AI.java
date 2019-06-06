@@ -28,13 +28,13 @@ public class AI{
     public int[] fire(){
         int len = pOne.getLen();
         int len0 = pOne.get0Len();
-        int temp = (int)(Math.random()*10);
-        int second = (int)(Math.random()*2);
+        int temp = (int)(Math.random()*14);
+       
         int[] index;
         
         
         
-        if(temp+second  < difficulty+1 || difficulty == 11){
+        if(temp  < difficulty || difficulty == 11 || ((difficulty == 10 || difficulty == 9) && temp-1<difficulty)){
             index = e.find();
             game.fireAI(index[0],index[1],e,two);
            
