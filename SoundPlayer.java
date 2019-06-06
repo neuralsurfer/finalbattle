@@ -53,7 +53,15 @@ public class SoundPlayer
         gsunk.add("oldmanScream.wav");
         ghit.add("beans.wav");
         bsunk.add("rave.wav");
+        bsunk.add("run.wav");
+        gsunk.add("avengers.wav");
+        bmiss.add("let me in.wav");
         win.add("dancinS.wav");
+        bhit.add("steve.wav");
+        bmiss.add("daway.wav");
+        gsunk.add("win.wav");
+        gsunk.add("mafia.wav");
+        ghit.add("hitmarker.wav");
     }
     public void player( String type ) throws Exception
     {
