@@ -290,7 +290,7 @@ public class game{
              System.out.println("\tEnemy ship has been sunk at row: " +(rInput+1) + ", col: "+ (cInput+1)+"\n");
              play.gsunkSound();
             }
-             else if(pTwo.getTile(rInput,cInput) != null && pOne.getTile(rInput,cInput).isShot()){
+             else if(pTwo.getTile(rInput,cInput) != null && pTwo.getTile(rInput,cInput).isShot()){
              System.out.println("Hit at row: " +(rInput+1) + ", col: "+ (1+cInput)+"\n");
              play.ghitSound();
             }
