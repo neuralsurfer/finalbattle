@@ -34,8 +34,8 @@ public class SoundPlayer
         bsunk.add( "bruh.wav" );
         bmiss.add("water.wav");
         bhit.add("oof.wav");
-        bsunk.add("sad.wav");
-        lose.add("sad.wav");
+        
+        
         gsunk.add("star.wav");
         gmiss.add("adminhelp.wav");
         bmiss.add( "adminhelp.wav" );
