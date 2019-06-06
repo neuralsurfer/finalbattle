@@ -254,6 +254,7 @@ String move11=""+
             System.out.print('\u000C');
             System.out.print( move11 );
             Thread.sleep( 710 );
+             System.out.print('\u000C');
         }
 
     }
